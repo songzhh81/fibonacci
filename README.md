@@ -97,7 +97,7 @@ Defects or TODO
         f(n) = f(n-2) + f(n-1), when n > 2
     We can get each fibonacci number simply in turn.
 
-  3.3,
+###  3.3, OPTIMIZE performance
 
     HOWEVER in order to OPTIMIZE performance, we can cache the fibonacci list got
     by the maximum parameter so far. Assume the maximum request parameter so far
@@ -163,9 +163,7 @@ Defects or TODO
     The related log is recorded in the file /var/log/fibonacci.log (you can
     modify the logfile path).
 
-  3.5,
-
-    Defects or Todo
+###  3.5, Defects or Todo
 
     1, Tornado default use single process, single thread mode, and IO multiplexing
        (epoll in Linux). We can use multi-process mode to provide higher performance
