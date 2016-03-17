@@ -2,7 +2,7 @@
 
 ==========================================================
 
-1, Project Requirements
+## 1, Project Requirements
 
     Implement a web service.
 
@@ -29,7 +29,7 @@
 
 ===========================================================
 
-2, simple version - simpleweb_fibonacci.py
+## 2, simple version - simpleweb_fibonacci.py
 
     First I write a simple web server based on socket - simpleweb_fibonacci.py
     (if you want to inspect basic network programming : ), that textbook program
@@ -55,7 +55,7 @@ Defects or TODO
 
 ==========================================================
 
-3, tornado version - tornado_fibonacci.py
+## 3, tornado version - tornado_fibonacci.py
 
   3.1,
 
@@ -63,7 +63,7 @@ Defects or TODO
     framework, such as wsgi+django/flask or tornado. In this project I use tornado.
     (I don't want to explain why I chose tornado instead of wsgi+django/flask : )
 
-    Please refer to http://www.tornadoweb.org/en/stable/ to study how to install,
+    Please refer to [Tornado](http://www.tornadoweb.org/en/stable/) to study how to install,
     deploy and develop with tornado.
 
     In my develop and test environment (ubuntu 14.04 ), I first download sourcecode
@@ -186,7 +186,7 @@ Defects or TODO
 
 ==========================================================
 
-4, testfibonacci.py, the test of tornado_fibonacci.py
+## 4, testfibonacci.py, the test of tornado_fibonacci.py
 
     As in project myfloat, the program testfibonacci.py is realized based on
     unittet, it's maybe better if realized based on mock.
