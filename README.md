@@ -37,7 +37,8 @@
     receive request, make response in a main loop.
 
     Usage:
-        # python simpleweb_fibonacci.py
+        # python simpleweb_fibonacci.py (first you should update HOST, PORT with
+                your environment)
     Check:
         Input http request in any browser URL address bar:
         http://192.168.9.181:8888/Fibonacci (server IP = '192.168.9.181', server
@@ -115,7 +116,8 @@ Defects or TODO
   3.4,
 
     Usage:
-        # python tornado_fibonacci.py
+        # python tornado_fibonacci.py (first you should update PORT with your
+                environment)
 
     Check:
 
@@ -194,7 +196,8 @@ Defects or TODO
     integers, positive integers, other random string respectively.
 
     Usage:
-        # python testfibonacci.py (need to start tornado_fibonacci.py first)
+        # python testfibonacci.py (need to start tornado_fibonacci.py first, and
+                you should update ServerIP, ServerPort with your environment))
 
     Expected results like this: "
         ....
