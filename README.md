@@ -148,9 +148,9 @@ Defects or TODO
         http://192.168.9.181:8888/fibonacci/5
     Result: "0 1 1 2 3"
 
-    Also check by culr:
+    Also check by curl:
         # curl -X GET -D - http://192.168.9.181:8888/fibonacci/3
-    Result: 
+    Result like: 
         "HTTP/1.1 200 OK
          Date: Thu, 17 Mar 2016 06:11:45 GMT
          Content-Length: 5
